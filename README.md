@@ -9,3 +9,5 @@ Our team's contributions have been invaluable in bringing our project to life. P
 
 
 https://66ef91cd1170332807bfa5fe--majestic-pavlova-755b20.netlify.app/ 
+
+# compatible with edge, chrome, brave and safari .Also available for all devices
