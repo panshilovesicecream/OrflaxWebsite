@@ -1,0 +1,135 @@
+body {
+    background-color: #b0b0b0; /* Set to a very gray color */
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+nav {
+    background-color: #c69e0e;
+    font-size: 18px;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  .hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  .company-info {
+    background-color: #58491c;
+    padding: 20px;
+    border: 1px solid #4f3d3d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .scroll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .scroll-down a {
+    text-decoration: none;
+    color: #666;
+  }
+  
+  .scroll-down a:hover {
+    color: #333;
+  }
+  
+  section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto; /* Add this to center the slider horizontally */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add some depth to the slider */
+    border-radius: 10px; /* Add some rounded corners to the slider */
+}
+
+.item {
+    position: absolute;
+    width: 200px; /* Keep width consistent for slides */
+    height: 400; /* Keep height consistent for slides */
+    text-align: justify;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.5s ease, opacity 0.5s ease, filter 0.5s ease; /* Smooth transitions */
+    left: 50%; /* Center the slides horizontally */
+    transform: translateX(-50%); /* Center the slides horizontally */
+    top: 0;
+}
+
+.item img {
+    width: 100%; /* Make image take the full width of the item */
+    height: 180px; /* Set a fixed height for all images */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 10px 10px 0 0; /* Round the top corners of the image */
+}
+
+#next, #prev {
+    position: absolute;
+    top: 40%;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    font-size: 36px; /* Use a numerical value for font size */
+    font-family: monospace;
+    font-weight: bold;
+    cursor: pointer; /* Add a pointer cursor to the buttons */
+}
+
+#next {
+    right: 20px; /* Position next button */
+}
+
+#prev {
+    left: 20px; /* Position previous button */
+}

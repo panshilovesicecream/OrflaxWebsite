@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="PRODUCTS.css">
+  <title>Products</title>
+  <style>
+    .navbar {
+      text-align: center;
+    }
+    .frame {
+      display: inline;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+        <li><a href="main.html" title="Go to Home page">Home</a></li>
+        <li><a href="About.html" title="Learn more about us">About</a></li>
+        <li><a href="PRODUCTS.html" title="View our products">Product</a></li>
+        <li><a href="galery.html" title="View our gallery">Gallery</a></li>
+        <li><a href="contact.html" title="Get in touch with us">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+      <div class="frame frame-1">
+        <img src="BEST.png" alt="Best Products">
+      </div>
+      <a href="prods.html" title="View our best products">
+      <button class="button" style="position: absolute; right:16%; top: 42%; transform: translateY(-50%);">OUR BEST PRODUCTS</button>
+    </a>
+    <br>
+    <div class="frame frame-2">
+      <img src="PREM.png" alt="Premium Products">
+    </div>
+    <a href="prprod.html" title="View our premium products">
+    <button class="button" style="position: absolute; left:15%; top:80%; transform: translateY(-50%);">OUR PREMIUM PRODUCTS</button>
+      </a>
+  </div>
+  <script>
+    const button = document.getElementById('myButton');
+button.addEventListener('click', function() {
+  window.location.href = 'prods.html';
+});
+  </script>
+</body>
+</html>

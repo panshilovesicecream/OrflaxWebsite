@@ -1,0 +1,99 @@
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: orange;
+	margin: 0;
+	padding: 0;
+	color: black;
+  }
+  
+  .navbar {
+    background-color: #cd8f12;
+    color: #000000;
+    padding: 1em;
+    text-align: center;
+    width: 100%; 
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+  
+  #pg22 {
+	font-size: small;
+	color: black;
+  }
+  
+  header .carousel-inner .item {
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+  }
+  
+  header .carousel-inner .item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  .carousel-caption {
+	padding-bottom: 2rem;
+	color: black;
+  }
+  
+  .carousel-caption h2 {
+	font-size: 36px;
+	text-transform: uppercase;
+	color: black;
+  }
+  
+  .carousel-control.right {
+	background-image: none;
+  }
+  
+  .carousel-control.left {
+	background-image: none;
+  }
+  
+  /* Medium screen size (768px - 992px) */
+  @media (min-width: 768px) and (max-width: 992px) {
+	.navbar-inverse .navbar-nav > li > a {
+	  padding: 0.25rem 0.5rem;
+	}
+	.carousel-caption h2 {
+	  font-size: 24px;
+	}
+  }
+  
+  /* Small screen size (480px - 767px) */
+  @media (min-width: 480px) and (max-width: 767px) {
+	.navbar-inverse .navbar-nav > li > a {
+	  padding: 0.1rem 0.25rem;
+	}
+	.carousel-caption h2 {
+	  font-size: 18px;
+	}
+  }
+  
+  /* Extra small screen size (less than 480px) */
+  @media (max-width: 479px) {
+	.navbar-inverse .navbar-nav > li > a {
+	  padding: 0.05rem 0.1rem;
+	}
+	.carousel-caption h2 {
+	  font-size: 14px;
+	}
+  }
