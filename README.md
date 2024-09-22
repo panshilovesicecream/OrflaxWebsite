@@ -8,3 +8,4 @@ Orflax India Pvt Ltd is a prominent wiring solutions provider, specializing in h
 Our team's contributions have been invaluable in bringing our project to life. Priyanshi took the lead, skillfully managing both the front-end and backend development. Aadhya created the products page, showcasing Orflax’s products effectively. Anushka crafted the About and Contact pages, ensuring clear communication. Ariza designed the gallery with images of products from Orflax, enhancing our website’s visual presence. Our success stemmed from exceptional teamwork, coordination, and collaborative discussions, reflecting our shared commitment and creativity towards this project.
 
 
+https://66ef91cd1170332807bfa5fe--majestic-pavlova-755b20.netlify.app/ 
